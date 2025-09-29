@@ -1,11 +1,11 @@
-class produto{
+cclass Produto{
     String nome;
     double valorUnitario;
 
-    produto(this.nome, this.valorUnitario);
+    Produto(this.nome, this.valorUnitario);
 
     @override
-    string toString(){
-        return ' Produto: $nome - Valor: r\$ ${valorUnitario.toStringAsFixed(2)}';
+    String toString(){
+        return 'Produto: $nome - Valor: R\$ ${valorUnitario.toStringAsFixed(2)}';
     }
 }
